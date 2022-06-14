@@ -1,4 +1,4 @@
-# auth-server
+# bearer-auth
 
 ## Links
 ### [Heroku Application](https://hadeel-bearer-auth.herokuapp.com/)
