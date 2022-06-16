@@ -14,6 +14,9 @@ async function bearer(req, res, next) {
                 res.send("Invalid Signin");
             })
     }
+    else{
+        res.status(403).send("Invalid Signin, Hint: Enter Token");
+    }
 }
 
 module.exports = bearer;
